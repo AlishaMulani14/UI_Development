@@ -104,6 +104,38 @@ input[type=text]
 input[type=password]
 {
     width: 90%;
-    margin: 10;
-
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+input [type=submit]:hover{
+    background-color: #203A43;
+    color:white;
+}
+input[type=submit]
+{
+    width: 90%;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: #203A43;
+    color: white;
+    position: relative;
+}
+input[type=submit]:hover
+{
+    background-color: #0f2027;
+    color: white;
+}
+#loginimg
+{
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
+    color: white;
+    width: 32px;
+    height: 32px;
 }

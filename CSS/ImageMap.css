@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 70%;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: auto;
+    height: 500px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
