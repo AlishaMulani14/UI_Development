@@ -39,8 +39,11 @@ nav ul li a{
 {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(90deg,#BE93C5,#7BC6CC);
+    /* background-image: linear-gradient(90deg,#BE93C5,#7BC6CC); */
+    /* background-color: #213A57; */
+    background-color: #c3c7f3;
 }
+
 #section1 h2{
     color: white;
     padding-top: 100px;
@@ -50,7 +53,8 @@ nav ul li a{
 {
     width: 100%;
     height: 100vh;
-    background-color:seagreen ;
+    /* background-color:#0B6477 ; */
+    background-color: #c8a8e9;
 }
 #section2 h2{
     color: white;
@@ -61,7 +65,8 @@ nav ul li a{
 {
     width: 100%;
     height: 100vh;
-    background-color:#00b09b ;
+    /* background-color:#14919B; */
+    background-color: #e3aadd;
 }
 #section3 h2{
     color: white;
@@ -72,7 +77,8 @@ nav ul li a{
 {
     width: 100%;
     height: 100vh;
-    background-color:#0575E6 ;
+    /* background-color:#0AD1c8 ; */
+    background-color: #f5bcba;
 }
 #section4 h2{
     color: white;
@@ -83,7 +89,8 @@ nav ul li a{
 {
     width: 100%;
     height: 100vh;
-    background-color:#FEAC5E ;
+    /* background-color:#45DFB1; */
+    background-color: #f3dcdc;
 }
 #section5 h2{
     color: white;

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box
+        {
+            width: 80%;
+            min-height: 100vh;
+            gap: 10px;
+            margin: auto;
+            display: grid;
+          grid-template-columns: 1fr 1fr 1fr ; 
+            grid-template-rows: 0.3fr 1fr  1.5fr 0.5fr 0.8fr 0.3fr ;
+            grid-auto-rows:200px ;
+            grid-template-areas: "Header Header Header"
+                                   "Hero MainContainer MainContainer"
+                                   "Slidebar MainContainer MainContainer"
+                                   "Slidebar ExtraContent ExtraContent "
+                                   "RelatedImages RelatedImages relatedpost"
+                                   "Footer Footer Footer"
+                                   ;
+
+        }
+        .Header
+        {
+            grid-area: Header;
+            background-color:#43cea2;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .Hero
+        {
+            grid-area: Hero;
+            background-color: rgb(210, 100, 237);
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .MainContainer
+        {
+            grid-area: MainContainer;
+            background-color: rgb(255, 186, 12);
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .Slidebar
+        {
+            grid-area: Slidebar;
+            background-color: #52c234;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .ExtraContent
+        {
+            grid-area: ExtraContent;
+            background-color:#556270;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .RelatedImages
+        {
+            grid-area: RelatedImages;
+            background-color: #0f9b0f;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .relatedpost
+        {
+            grid-area: relatedpost;
+            background-color: #FFAF7B;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+        .Footer
+        {
+            grid-area: Footer;
+            background-color:#fe8c00;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+        }
+
+        /* .Header
+        {
+            background-color:rgb(127, 203, 233);
+            color: white;
+            grid-column-start: 1;
+            grid-column-end: -1;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b2
+        {
+            background-color:#eaafc8;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b3
+        {
+            background-color:#FFD200;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b4
+        {
+            background-color:#45B649;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b5
+        {
+            background-color:#89253e;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b6
+        {
+            background-color:#2C7744;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b7
+        {
+            background-color:#F15F79;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .box .b8
+        {
+            background-color:#fd1d1d;
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: -1;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="Header"> Header</div>
+        <div class="Hero">Hero</div>
+        <div class="MainContainer">MainContainer</div>
+        <div class="Slidebar">Slidebar</div>
+        <div class="ExtraContent">ExtraContent</div>
+        <div class="RelatedImages">RelatedImages</div>
+        <div class="relatedpost">relatedpost</div>
+        <div class="Footer">Footer</div>
+
+    </div>
+</body>
+</html>
